@@ -82,7 +82,7 @@ int main() {
 
   printf("Testing my_strchr\n");
   printf("String is \"%s\" and char is \"%c\"\nFirst instance of char is \"%s\"\n", w, x, my_strchr(w, x));
-  printf("Using strcmp: %s\n\n", strchr(w,x));
+  printf("Using strchr: %s\n\n", strchr(w,x));
 
   return 0;
 }
